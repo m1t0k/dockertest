@@ -3,3 +3,8 @@
 ################################################################################
 
 /dockertest/.vs/dockertest/v15
+/dockertest/dockertest.api/bin/Debug/netcoreapp2.1
+/dockertest/dockertest.api/obj/Debug/netcoreapp2.1
+/dockertest/dockertest.tests/bin/Debug/netcoreapp2.1
+/dockertest/dockertest.tests/obj/Debug/netcoreapp2.1
+/dockertest/.vs/dockertest/DesignTimeBuild
