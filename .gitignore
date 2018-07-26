@@ -14,3 +14,5 @@
 /dockertest/dockertest.tests/obj/Release/netcoreapp2.1
 /dockertest/.vs/config
 /dockertest/obj
+/dockertest/dockertest.api/obj
+/dockertest/dockertest.tests/obj

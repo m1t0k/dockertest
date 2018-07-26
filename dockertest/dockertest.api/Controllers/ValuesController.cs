@@ -6,7 +6,10 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace dockertest.api.Controllers
 {
-    [Route("api/[controller]")]
+    [ApiVersion("1.0", Deprecated = true)]
+    [ApiVersion("2.0")]
+    [Route("api/values")] // /api/medias
+    [Route("api/{version:apiVersion}/values")]
     [ApiController]
     public class ValuesController : ControllerBase
     {
@@ -14,7 +17,14 @@ namespace dockertest.api.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] {"value1", "value2"};
+        }
+
+        [HttpGet]
+        [MapToApiVersion("2.0")]
+        public ActionResult<IEnumerable<string>> GetV2()
+        {
+            return new string[] {"value1", "value2", "value3"};
         }
 
         // GET api/values/5
