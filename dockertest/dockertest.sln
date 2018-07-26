@@ -7,10 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dockertest.api", "dockertes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dockertest.tests", "dockertest.tests\dockertest.tests.csproj", "{39528D52-2D90-4236-AABB-EB129B8058EB}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "dockertest.web", "dockertest.web\", "{3CD83B56-B524-41C7-898F-20DAD353DC6B}"
-	ProjectSection(WebsiteProperties) = preProject
-	EndProjectSection
-EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{EF99F175-0362-49A6-8B1D-26B10087321F}"
 EndProject
 Global
