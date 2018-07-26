@@ -9,23 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dockertest.tests", "dockert
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "dockertest.web", "dockertest.web\", "{3CD83B56-B524-41C7-898F-20DAD353DC6B}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_61333"
-		Debug.AspNetCompiler.PhysicalPath = "dockertest.web\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61333\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_61333"
-		Release.AspNetCompiler.PhysicalPath = "dockertest.web\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61333\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "61333"
 	EndProjectSection
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{EF99F175-0362-49A6-8B1D-26B10087321F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +31,10 @@ Global
 		{3CD83B56-B524-41C7-898F-20DAD353DC6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CD83B56-B524-41C7-898F-20DAD353DC6B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{3CD83B56-B524-41C7-898F-20DAD353DC6B}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{EF99F175-0362-49A6-8B1D-26B10087321F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF99F175-0362-49A6-8B1D-26B10087321F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF99F175-0362-49A6-8B1D-26B10087321F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF99F175-0362-49A6-8B1D-26B10087321F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
