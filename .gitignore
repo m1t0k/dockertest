@@ -8,3 +8,8 @@
 /dockertest/dockertest.tests/bin/Debug/netcoreapp2.1
 /dockertest/dockertest.tests/obj/Debug/netcoreapp2.1
 /dockertest/.vs/dockertest/DesignTimeBuild
+/dockertest/dockertest.api/obj/Release/netcoreapp2.1
+/dockertest/dockertest.api/bin/Release/netcoreapp2.1
+/dockertest/dockertest.tests/bin/Release/netcoreapp2.1
+/dockertest/dockertest.tests/obj/Release/netcoreapp2.1
+/dockertest/.vs/config
