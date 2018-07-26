@@ -7,27 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dockertest.api", "dockertes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dockertest.tests", "dockertest.tests\dockertest.tests.csproj", "{39528D52-2D90-4236-AABB-EB129B8058EB}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "dockertest.web", "dockertest.web\", "{3CD83B56-B524-41C7-898F-20DAD353DC6B}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_61333"
-		Debug.AspNetCompiler.PhysicalPath = "dockertest.web\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61333\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_61333"
-		Release.AspNetCompiler.PhysicalPath = "dockertest.web\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61333\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "61333"
-		SlnRelativePath = "dockertest.web\"
-	EndProjectSection
-EndProject
+
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
