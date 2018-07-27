@@ -16,3 +16,4 @@
 /dockertest/obj
 /dockertest/dockertest.api/obj
 /dockertest/dockertest.tests/obj
+/dockertest/.idea/.idea.dockertest
