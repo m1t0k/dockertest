@@ -3,7 +3,7 @@
   <PropertyGroup Label="Globals">
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
-    <ProjectGuid>ef99f175-0362-49a6-8b1d-26b10087321f</ProjectGuid>
+    <ProjectGuid>7520c6c3-4b5d-4296-b25e-635e2c334ced</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}/api/values</DockerServiceUrl>
     <DockerServiceName>dockertest.api</DockerServiceName>
