@@ -7,6 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dockertest.api", "dockertes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dockertest.tests", "dockertest.tests\dockertest.tests.csproj", "{39528D52-2D90-4236-AABB-EB129B8058EB}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dockertest.awsserverless", "dockertest.awsserverless\dockertest.awsserverless.csproj", "{681A26A6-5BFB-4D00-ABCB-A384501E54AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dockertest.awslambda", "dockertest.awslambda\dockertest.awslambda.csproj", "{6D4BB1D1-4C7D-4985-B4D0-93AE0C2E9840}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dockertest.awslambda.Tests", "dockertest.awslambda.Tests\dockertest.awslambda.Tests.csproj", "{9CCC6439-AF32-40CF-92B9-42C113ADB991}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +27,18 @@ Global
 		{39528D52-2D90-4236-AABB-EB129B8058EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39528D52-2D90-4236-AABB-EB129B8058EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39528D52-2D90-4236-AABB-EB129B8058EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{681A26A6-5BFB-4D00-ABCB-A384501E54AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{681A26A6-5BFB-4D00-ABCB-A384501E54AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{681A26A6-5BFB-4D00-ABCB-A384501E54AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{681A26A6-5BFB-4D00-ABCB-A384501E54AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D4BB1D1-4C7D-4985-B4D0-93AE0C2E9840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D4BB1D1-4C7D-4985-B4D0-93AE0C2E9840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D4BB1D1-4C7D-4985-B4D0-93AE0C2E9840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D4BB1D1-4C7D-4985-B4D0-93AE0C2E9840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CCC6439-AF32-40CF-92B9-42C113ADB991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CCC6439-AF32-40CF-92B9-42C113ADB991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CCC6439-AF32-40CF-92B9-42C113ADB991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CCC6439-AF32-40CF-92B9-42C113ADB991}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

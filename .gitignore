@@ -17,3 +17,9 @@
 /dockertest/dockertest.api/obj
 /dockertest/dockertest.tests/obj
 /dockertest/.idea/.idea.dockertest
+/dockertest/dockertest.awslambda/bin/Debug/netcoreapp2.1
+/dockertest/dockertest.awslambda/obj
+/dockertest/dockertest.awslambda.Tests/bin/Debug/netcoreapp2.1
+/dockertest/dockertest.awslambda.Tests/obj
+/dockertest/dockertest.awsserverless/bin/Debug/netcoreapp2.1
+/dockertest/dockertest.awsserverless/obj
